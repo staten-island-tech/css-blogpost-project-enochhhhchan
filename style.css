@@ -13,7 +13,23 @@ body {
   width: 50vw;
 }
 
-.white {
+.white,
+.no {
   color: white;
-  margin: 10px auto;
+  font-size: 40px;
+  margin: 20px auto;
+  background-color: brown;
+  padding: 5px;
+}
+
+h6 {
+  color: black;
+  text-align: center;
+  font-size: larger;
+  background-image: url(img/shaq.jpg);
+  background-size: cover;
+  background-size: 50px;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
 }
