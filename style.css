@@ -16,24 +16,39 @@ body {
 .post1,
 .post2,
 .post3 {
-  color: white;
   font-size: 40px;
   margin: 20px auto;
-  background-color: red;
+  background-color: white;
   padding: 5px;
-  width: 200px;
-  height: 300px;
+  width: 500px;
+  height: 400px;
   text-align: center;
+  border-radius: 20px;
 }
 
-h6 {
-  color: black;
-  text-align: center;
-  font-size: larger;
-  background-image: url(img/shaq.jpg);
-  background-size: cover;
-  background-size: 50px;
+.post1 {
+  color: red;
+  background-image: url(img/skittles.jfif);
   background-repeat: no-repeat;
+  background-size: contain;
   background-position: center;
-  height: 100vh;
+  background-position-y: -10px;
+}
+
+.post2 {
+  color: green;
+  background-image: url(img/mikes.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  background-position-y: 40px;
+}
+
+.post3 {
+  color: blue;
+  background-image: url(img/jolly.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  background-position-y: 50px;
 }
