@@ -27,7 +27,6 @@ body {
 }
 
 .post1 {
-  color: red;
   background-image: url(img/skittles.jfif);
   background-repeat: no-repeat;
   background-size: contain;
@@ -36,19 +35,51 @@ body {
 }
 
 .post2 {
-  color: green;
   background-image: url(img/mikes.png);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
-  background-position-y: 40px;
+  background-position-y: 0px;
 }
 
 .post3 {
-  color: blue;
   background-image: url(img/jolly.png);
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: 400px;
   background-position: center;
-  background-position-y: 50px;
+  background-position-y: 65px;
+}
+
+.skittles {
+  color: red;
+  margin-top: 0px;
+}
+
+.mikeandike {
+  color: green;
+  margin-top: 0px;
+}
+
+.jollyranchers {
+  color: blue;
+  margin-top: 0px;
+}
+
+.motto1,
+.motto2,
+.motto3 {
+  font-size: 15px;
+  color: black;
+}
+
+.motto1 {
+  margin-top: 260px;
+}
+
+.motto2 {
+  margin-top: 150px;
+}
+
+.motto3 {
+  margin-top: 270px;
 }
