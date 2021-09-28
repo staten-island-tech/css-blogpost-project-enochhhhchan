@@ -5,12 +5,13 @@ body {
 }
 
 .main-header {
-  color: blue;
+  color: #be41e8;
   text-align: center;
   margin: 10px auto;
   background-color: white;
   padding: 10px 20px;
   width: 50vw;
+  font-family: "Josefin Sans", sans-serif;
 }
 
 .post1,
@@ -27,28 +28,68 @@ body {
 }
 
 .post1 {
-  color: red;
   background-image: url(img/skittles.jfif);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
-  background-position-y: -10px;
+  background-position-y: -15px;
 }
 
 .post2 {
-  color: green;
   background-image: url(img/mikes.png);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
-  background-position-y: 40px;
+  background-position-y: 0px;
 }
 
 .post3 {
-  color: blue;
   background-image: url(img/jolly.png);
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: 350px;
   background-position: center;
-  background-position-y: 50px;
+  background-position-y: 60px;
+}
+
+.skittles,
+.mikeandike,
+.jollyranchers {
+  margin-top: -10px;
+  font-family: "Cabin", sans-serif;
+}
+
+.skittles {
+  color: red;
+}
+
+.mikeandike {
+  color: green;
+}
+
+.jollyranchers {
+  color: #475fc9;
+}
+
+.motto1,
+.motto2,
+.motto3 {
+  color: black;
+  font-size: 25px;
+}
+
+.motto1 {
+  margin-top: 250px;
+}
+
+.motto2 {
+  margin-top: 170px;
+}
+
+.motto3 {
+  margin-top: 230px;
+}
+
+.link1 {
+  background-color: black;
+  background-size: 20vw;
 }
